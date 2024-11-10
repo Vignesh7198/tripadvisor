@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+
+}
+
+
+.navbar{
+    height: 100px;
+    position:sticky;
+    top:0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.navbar__s1 img{
+    width: 50px;
+    height: 50px;
+}
+.navbar__s1{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.navbar__s2__list{
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar__s3{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content:start;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar__s3 img{
+    width: 25px;
+    height: 25px;
+}
+
+.navbar__s3__separator{
+    color:rgb(150, 152, 154)
+}
+
+.navbar__s3 button{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left:25px ;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar2{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 50px;
+ margin-top: 40px;
+}
+
+.navbar2__s2{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 20px;
+}
+
+.navbar2__title{
+    font-size:60px;
+}
+.navbar2__s2__menu{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap:25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar2__s2 img{
+     width:25px;
+     position: relative;
+     left:20px
+}
+.navbar3{
+    display: flex;
+    justify-content: center;
+
+
+}
+.navbar3__search{
+    width: 57%;
+    height: 70px;
+    border-radius: 55px ;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin-left: 30px;
+    box-shadow: 1px 1px 10px 1px rgb(214, 213, 213);
+}
+.navbar3__search img{
+    width:30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.navbar3__search input{
+    height: 50px;
+    width: 70%;
+    border: none;
+    margin-right: 120px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar3__search input::placeholder{
+ font-size: 20px;
+}
+
+.navbar3__search input:focus{
+    border: none;
+    outline: none;
+}
+
+.navbar3__search button{
+   padding: 18px;
+   border: 0;
+   border-radius: 50px;
+   width: 120px;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: #4FFFB0;
+   margin-right:5px ;
+   cursor: pointer;
+}
+
+
+    .newfeature{
+       display: flex;
+       justify-content: center;
+       margin-top: 4%;
+       position:relative;
+       width: 98vw;
+       height: 90vh;
+
+     }
+
+
+.newfeature img{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    
+}
+.newfeature__details{
+    width:50%;
+    position: absolute;
+    left:20%;
+    color: white;
+}
+
+.newfeature__details__title{
+    margin-top: 20%;
+    font-size:1em;
+}
+
+.newfeature__details__title__subtext{
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    font-size: 0.7em;
+    display: inline-block;
+    padding:0.5%;
+    background-color: white;
+    color: black;
+    border-radius: 8%;
+    width: 5%;
+    font-weight: 800;
+    position: relative;
+    left:6.5vw;
+    bottom: 3vh;
+
+    text-align: center;
+}
+
+.newfeature__details__title__bold{
+    font-size: 7vh ;
+    width: 70%;
+}
+
+.newfeature__details__desc{
+    font-size: 150%;
+    width:50%;
+}
+
+.newfeature__details_tryit{
+    margin-top: 3%;
+    width:18%;
+    padding:2%;
+    border-radius: 50vh;
+    font-size: 10vh;
+    display:flex;
+    position: relative;
+    align-items: center;
+    background-color: #BE99D5;
+    height:10% ;
+}
+
+.newfeature__details_tryit img{
+    width:20%;
+    height: 20%;
+    margin-right: 10%;
+    position: relative;
+    
+}
+
+.newfeature__details_tryit p{
+  font-size: 20px;
+  position: relative;
+
+}
+
+.beachadvertisement{
+   background-color: rgb(221, 219, 219);
+   display: flex;
+   justify-content: center;
+   margin-top: 3%;
+   position:relative;
+   width:80%;
+   left:10%;
+   height: 32.5vh;
+}
+
+.beachadvertisement__image{
+    width: 100%;
+    border-radius: 10%;
+    transform :rotate(-3deg);
+    top:5%;
+    position: relative;
+    left:1%;
+}
+
+.beachadvertisement__image img{
+    border-radius: 5%;
+    position: relative;
+
+}
+
+.beachadvertisement__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 455%;
+    height: 100%;
+}
+.beachadvertisement__text__details{
+    width:70%;
+    font-size: 1.1rem;
+}
+.beachadvertisement__text__highlight{
+   padding: 0.5%;
+   font-size:1rem;
+   background-color: rgb(193, 200, 202);
+   position: relative;
+   top:15%;
+}
+
+.beachadvertisement__text__header{
+    font-weight: 600;
+    position: relative;
+    top: 20%;
+    font-size: 1.8rem;
+}
+
+.beachadvertisement__text__details{
+    position: relative;
+    top:25%
+}
+
+.beachadvertisement__text button{
+    position:relative;
+    left:85%;
+    top:14%;
+    padding:1%;
+    border-radius: 50vw;
+    width:10%;
+    font-size: 1em;
+}
+.bestrestaurants{
+    position: relative;
+    width:79vw;
+    left:10%;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+
+}
+
+.bestrestaurants__header{
+    
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.bestrestaurants__card{
+    display: flex;
+    gap:3%;
+    width:100%;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.bestrestaurants__card img{
+    width:108%;
+    border-radius: 15px;
+}
+.bestrestaurants__card h1{
+    position: relative;
+    bottom:15%;
+    left:5%;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.bestrestaurants__text{
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.travel{
+    position: relative;
+    width:79vw;
+    left:10%;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+}
+
+.travel__header{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.travel__card{
+    display: flex;
+    gap:4%;
+    width:100%;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.travel__card img{
+    width:108%;
+    border-radius: 15px;
+    height: 18em;
+
+}
+
+.travel__card p:nth-of-type(1){
+ margin-top: 5%;
+ margin-left: 40%;
+}
+
+.travel__text{
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.travel__card p:nth-of-type(2){
+    margin-top: 5%;
+    margin-left: 25%;
+   }
+
+   .travel__card p:nth-of-type(3){
+    margin-top: 5%;
+    margin-left: 49%;
+   }
+
+   .travel__card p:nth-of-type(4){
+    margin-top: 5%;
+    margin-left: 45%;
+   }
+
+   .topexperiences{
+    position: relative;
+    width:79vw;
+    left:10%;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+}
+
+.topexperiences__header{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.topexperiences__text{
+    font-size: 1.4em;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-weight: 300;
+
+}
+
+.topexperiences__cards{
+    display: flex;
+    gap:1.5%;
+    width:100%;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+.topexperiences__cards img{
+    width:100%;
+    border-radius: 15px;
+    height: 18em;
+    margin-right: 30%;
+}
+.topexperiences__cards h1{
+    position: relative;
+    left:3%;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    width: 95%;
+    margin-right: 50%;
+}
+
+.topexperiences__card{
+    width:23.7%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.topexperiences__cards img:nth-of-type(2){
+     width: 13%;
+     height: 7%;
+     position:relative;
+     background-color: white;
+     left:80%;
+     bottom:37vh;
+     border-radius: 50%;
+}
+
+.topexperiences__review{
+    margin-top: 10%;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    height: 300%;
+}
+.topexperiences__review p{
+    width: 5%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: #068a4f;  
+    position: relative;
+    bottom: 50%;
+    right: 28%; 
+}
+
+.topexperiences__review .green-half {
+    background-color: #068a4f;
+    clip-path: inset(0 50% 0 0); 
+}
+
+.topexperiences__review p:nth-of-type(6){
+  background-color:transparent ;  
+  position: relative;
+  bottom: 51%;
+}
+
+.topexperiences__card__cost{
+    position:relative;
+    left:3%;
+    bottom: 10%;
+
+}
+
+
+.moretoexplore{
+    position: relative;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    background-color: #E5E0E6;
+    width: 100;
+    
+}
+
+.moretoexplore__container{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+
+.moretoexplore__header{
+    font-size: 2rem;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-left: 7%;
+    padding: 2%;
+    
+}
+
+.moretoexplore__cards{
+    display: flex;
+    gap:4%;
+    width:80%;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.moretoexplore img{
+    width:40%;
+    border-radius: 15px;
+    height: 14em;
+
+}
+
+.moretoexplore__card img{
+ width:110%
+}
+
+.moretoexplore{
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.moretoexplore__card{
+    display: flex;
+    width:30%;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.moretoexplore__card p{
+   font-size: 0.8em;
+   width: 80%;
+   font-weight: 700;
+   text-align: center;
+   line-height: 150%;
+}
+
+.moretoexplore img:nth-of-type(2){
+    width: 12%;
+    height: 8%;
+    position:relative;
+    background-color: white;
+    left:35%;
+    bottom:42vh;
+    border-radius: 50%;
+}
+
+ 
+.nexttrip{
+    position: relative;
+    width:79vw;
+    left:10%;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+
+}
+
+.nexttrip__header{
+    
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.nexttrip__cards{
+    display: flex;
+    gap:3%;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    max-height: 45vh;
+}
+.nexttrip__cards img{
+    width:100%;
+    border-radius: 15px;
+}
+.nexttrip__cards h1{
+    position: relative;
+    bottom:30%;
+    left:5%;
+    color: white;
+    overflow: hidden;
+    width:17vw;
+    margin-top: 50px;
+
+}
+
+.nexttrip__text{
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.nexttrip__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.topdestinations{
+    position: relative;
+    width:79vw;
+    left:10%;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+
+}
+
+.topdestinations__header{
+    
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.topdestinations__cards{
+    display: flex;
+    gap:3%;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.topdestinations__cards img{
+    width:100%;
+    border-radius: 15px;
+    height: 40vh;
+}
+.topdestinations__cards h1{
+    position: relative;
+    bottom:30%;
+    left:5%;
+    color: white;
+    overflow: hidden;
+    width:17vw;
+    margin-top: 50px;
+
+}
+
+.topdestinations__text{
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.topdestinations__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bikerace{
+    background-color: #d1c4d8;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    position: relative;
+    left:10%;
+    height: 88vh;
+}
+
+.bikerace__img img{
+   position: relative;
+   left:5%;
+   top:5%
+}
+
+.bikerace__details img{
+    width:8%;
+    position: relative;
+    top:30%
+}
+
+.bikerace__details__sponsor{
+    display: flex;
+    margin-top: 20%;
+    align-items: center;
+
+}
+.bikerace__details__sponsor p{
+    margin-top: 2%;
+    font-size: 1.4em;
+
+}
+
+.bikerace__details{
+    margin-left: 20%;
+    margin-top:10%
+
+}
+.bikerace__details__sponsordetails p:nth-of-type(1){
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 5%;
+    position: relative;
+    right: 10%;
+}
+
+.bikerace__details__sponsordetails p:nth-of-type(2){
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin-top: 5%;
+    position: relative;
+    right: 10%;
+    width:90%
+}
+
+.bikerace__details__sponsordetails button{
+    padding: 3%;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.footer{
+    background-color: rgb(225, 229, 229);
+    margin-top: 5%;
+    font-size: 1.1em;
+}
+
+.footer__list{
+    display: flex;
+    margin-left: 10%;
+    padding-top:3%;
+    font-weight: 200;
+    font-size: 1em;
+    gap:4%;
+    line-height: 1.5;
+}
+
+.footer__list__four{
+    position: relative;
+    left:20%
+}
+
+.footer__s2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.footer__s2__one img{
+    width:10%
+}
+.footer__s2__two__allrights{
+    position: relative;
+   right:55%
+}
+
+.footer__s2__two__s1{
+    display:flex;
+    text-decoration: underline;
+    position: relative;
+    right:55%;
+    gap:3%;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    width:180%
+}
+
+.footer__s2__three{
+    display: flex;
+    width:80%;
+    gap:15%;
+    position:relative;
+    left:50%;
+}
+
+
+.footer__s2{
+    width:50%
+}
+.footer__s3{
+    display: flex;
+    max-width: 60%;
+    margin-left: 10%;  
+    font-size: 0.8em;  
+    font-weight: 300;
+}
+
+.footer__s2__three select{
+    border-radius: 10px;
+    padding: 5px;
+    width:160%;
+    height:50%;
+    font-weight: 600;
+    border-color: #a9a8a9;
+}
+
